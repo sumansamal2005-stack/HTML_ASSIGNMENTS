@@ -1,0 +1,124 @@
+
+<html>
+<head>
+<title>Application Form</title>
+</head>
+<body>
+<h1 style="text-align: center;">APPLICATION FORM</h1>
+<form>
+<fieldset>
+<legend>Personal Details</legend>
+<table border=0 cellspacing=0 cellpadding=1>
+<tr>
+<td>Applicant's<br>full name</td>
+<td>
+<input type="text" name="full-name" size="20">
+</td>
+<td>Care Of</td>
+<td>
+<input type="radio" name="care-of" value="parents"> Parents
+<input type="radio" name="care-of" value="guardian" checked> Guardian
+</td>
+</tr>
+<tr>
+<td>Father's<br>Name</td>
+<td>
+<select name="father-title">
+<option value="mr">Mr.</option>
+</select>
+<input type="text" name="father-name" size="20">
+</td>
+<td>Mother's<br>Name</td>
+<td>
+<select name="mother-title">
+<option value="mrs">Mrs.</option>
+</select>
+<input type="text" name="mother-name" size="20">
+</td>
+</tr>
+<tr>
+<td>Gender</td>
+<td>
+<input type="radio" name="gender" value="male" checked> Male
+<input type="radio" name="gender" value="female"> Female
+<input type="radio" name="gender" value="others"> Others
+</td>
+<td>Date of<br>Birth</td>
+<td>
+<input type="text" name="dob" placeholder="dd-mm-yyyy" size="10">
+</td>
+</tr>
+<tr>
+<td>Marital<br>Status</td>
+<td>
+<select name="marital-status">
+<option value="">--Select--</option>
+</select>
+</td>
+<td>Category</td>
+<td>
+<select name="category">
+<option value="">--Select--</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>Handicapped</td>
+<td>
+<input type="radio" name="handicapped" value="no" checked> No
+<input type="radio" name="handicapped" value="yes"> Yes
+</td>
+<td>Ex-Serviceman</td>
+<td>
+<input type="radio" name="ex-serviceman" value="no" checked> No
+<input type="radio" name="ex-serviceman" value="yes"> Yes
+</td>
+</tr>
+<tr>
+<td>EWS</td>
+<td>
+<input type="radio" name="ews" value="no" checked> No
+<input type="radio" name="ews" value="yes"> Yes
+</td>
+<td>Religion</td>
+<td>
+<select name="religion">
+<option value="">--Select--</option>
+</select>
+</td>
+</tr>
+</table>
+</fieldset>
+
+<!-- Contact Details section from user's prompt (included for completeness) -->
+<fieldset>
+<legend>Contact Details</legend>
+<table border=0 cellspacing=0 cellpadding=1 width=50%>
+<tr>
+<td>Mobile<br>Number
+</td>
+<td> <input type="text"></td>
+<td>Email ID</td>
+<td><input type="text">
+</td>
+<tr>
+<td>Address<br>Line1
+</td>
+<td> <input type="text"></td>
+<td>Address<br>Line2</td>
+<td><input type="text"></td>
+</tr>
+<tr>
+<td>City</td>
+<td><input type="text"></td>
+<td>State</td>
+<td><select name=""><option value="select">--Select--</td>
+<tr>
+<td>Pin Code</td>
+<td><input type="text"></td>
+</tr>
+</table>
+</fieldset>
+</form>
+</body>
+</html>
