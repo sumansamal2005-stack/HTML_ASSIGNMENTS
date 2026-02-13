@@ -1,0 +1,97 @@
+
+<html>
+<head>
+    <title>Product Section</title>
+    <style>
+        body {
+	    background-color: F1FAEE;
+            font-family: sans-serif;
+	    font-size:22;
+            padding: 20px;
+        }
+
+.featured-products {
+            max-width: 4000px;
+            margin: 0 auto;
+        }
+.product-row {
+            display: flex;
+            flex-direction: row;
+            gap: 15px;
+        }
+.product-card {
+            flex: 1;
+            border: 1px solid #ccc;
+            padding: 15px;
+            text-align: center;
+        }
+.product-card img {
+            width: 80%;
+            height: auto;
+        }
+.product-card, button {
+    transition: all 0.3s ease;
+}
+
+
+.product-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    border-color: #457B9D; 
+}
+
+
+button:hover {
+    background-color: #1D3557;
+    transform: scale(1.05);
+}
+button {
+            background-color: E9C46A;
+            color: black;
+            border: none;
+            padding: 8px;
+	    
+            width: 100%;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 800;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+
+ </style>
+</head>
+<body>
+
+<div class="featured-products">
+ <h1>Casual Shirts for Men</h1>
+<div class="product-row">
+<div class="product-card">
+<img src="product1.webp" alt="Product">
+ <h3>Men's Flannel Green & Buff Beige Vignette-Checked Oversized Shirt</h3>
+<p>Rs 1000.00</p>
+<button>Add to Cart</button>
+</div>
+<div class="product-card">
+<img src="product2.jfif" alt="Product">
+<h3>Men's Casual Button Down Shirts Short Sleeve Cotton Linen Shirt</h3>
+<p>Rs 2000.00</p>
+<button>Add to Cart</button>
+</div>
+<div class="product-card">
+<img src="product 3.jfif" alt="Product">
+<h3>Formy Cascade Luxury Formal Satin Cotton Shirt </h3>
+<p>Rs 3000.00</p>
+<button>Add to Cart</button>
+</div>
+<div class="product-card">
+<img src="product4.jfif" alt="Product">
+ <h3>Crimsoune Club Men's Maroon Shirt</h3>
+<p>Rs 4000.00</p>
+<button>Add to Cart</button>
+</div>
+        </div>
+    </div>
+
+</body>
+</html>
